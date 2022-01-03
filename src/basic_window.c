@@ -78,9 +78,9 @@ void UpdateDrawFrame(void)
 
         ClearBackground(RAYWHITE);
         #if defined(PLATFORM_WEB)
-        DrawText("Congrats! WEB", 190, 200, 20, LIGHTGRAY);
+        DrawText("Congrats! Platform=WEB", 190, 200, 20, DARKGRAY);
         #else
-        DrawText("Congrats! NOT WEB", 190, 200, 20, LIGHTGRAY);
+        DrawText("Congrats! Platform=DESKTOP", 190, 200, 20, DARKGRAY);
         #endif
 
     EndDrawing();
