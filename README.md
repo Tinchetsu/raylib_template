@@ -1,5 +1,8 @@
 # raylib template
 
-My project template for raylib dev. Html5 wasm for now, will implement others in the future.
+My project template for raylib dev.
+Currently tested wasm and XCode(desktop) builds.
+Tested on Windows and Mac.
 
-In the web folder run ```./build.sh```
+wasm: ```emcmake cmake -D PLATFORM=Web -D BUILD_EXAMPLES=FALSE -B build/wasm```
+xcode(desktop): ```cmake -G Xcode -D BUILD_EXAMPLES=FALSE -B build/xcode```
