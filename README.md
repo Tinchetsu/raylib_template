@@ -2,7 +2,7 @@
 
 My project template for raylib dev.
 
-Currently tested wasm and XCode(desktop) builds.
+Currently tested Vindows (Visual Studio 2022), wasm and XCode(desktop) builds.
 wasm build Tested on Windows and Mac.
 
 windows:
