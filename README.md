@@ -5,7 +5,8 @@ My project template for raylib dev.
 Currently tested wasm and XCode(desktop) builds.
 wasm build Tested on Windows and Mac.
 
-TODO: windows desktop build
+windows:
+```cmake -B win -D BUILD_EXAMPLES=FALSE```
 
 wasm:
 ```emcmake cmake -D PLATFORM=Web -D BUILD_EXAMPLES=FALSE -B build/wasm```
